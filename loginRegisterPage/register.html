@@ -18,7 +18,12 @@
 			<div class="row justify-content-center">
 				<div class="col-md-6 col-lg-4">
 					<div class="login-wrap py-5">
-		      	<div class="img d-flex align-items-center justify-content-center" style="background-image: url(images/bg.jpg);"></div>
+
+		      	<label id="profilepic" class="img d-flex align-items-center justify-content-center" for="uploadimage" style="background-image: url(images/bg.jpg);">
+					<img src="./images/add.png" width="20" class="add">
+					<input type="file" accept="image/jpg, image/jpeg, image/png" id="uploadimage" style="display: none;">
+				</label>
+
 		      	<h3 class="text-center mb-0">REGISTER</h3>
 		      	<p class="text-center">Sign in by entering the information below</p>
 						<form action="#" class="login-form">
